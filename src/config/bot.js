@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "yellow moon",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -24,8 +24,12 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
-        type: 4,               // Custom
+        state: "_ _
+_ _󠀠󠀠󠀠⠀ ⠀ ⠀ ⠀ ⠀ຽ황   𖡻  pe__ace__  ͜͜ ݃   𓈃 𓂂⃨
+_ _⠀ ⠀ ⠀ ⠀  ⠀𓏼̶̥̥ᣟ݂  𓂂 𓏼⑅⃝  ✿   人 ׂ 𓏼ᩙ  e  
+_ _󠀠󠀠󠀠󠀠⠀ ⠀ ⠀  ⠀  ꒰‿͡e 𓈈 ๑𓈒  ⁰⁷ ⁰⁸  𝄂 飯
+_ _",     // this is what people actually see
+        type: 2,               // Custom
       },
     ],
   },
@@ -93,14 +97,14 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#81d178",
+      secondary: "#fffffF",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287",
-      error: "#ED4245",
-      warning: "#FEE75C",
-      info: "#3498DB",
+      success: "#38957c",
+      error: "#235823",
+      warning: "022c02",
+      info: "#476b47",
 
       // Neutral utility colors.
       light: "#FFFFFF",
